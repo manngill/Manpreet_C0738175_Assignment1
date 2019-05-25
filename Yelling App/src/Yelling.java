@@ -12,6 +12,11 @@ public class Yelling {
         {
             return name + " IS YELLING";
         }
+        
+       if (name == null)
+       {
+          return "Nobody is yelling";
+       }
   
       return "";
     }
