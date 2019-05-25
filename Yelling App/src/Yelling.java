@@ -2,6 +2,11 @@
 public class Yelling {
 
     public String scream(String name) {
+        
+       if (name == null)
+       {
+          return "Nobody is yelling";
+       }
 
         if (name != null && name != name.toUpperCase()) 
         {
@@ -13,10 +18,7 @@ public class Yelling {
             return name + " IS YELLING";
         }
         
-       if (name == null)
-       {
-          return "Nobody is yelling";
-       }
+      
   
       return "";
     }
