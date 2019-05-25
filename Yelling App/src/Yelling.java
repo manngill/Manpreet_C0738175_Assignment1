@@ -8,6 +8,13 @@ public class Yelling {
             return name + " is yelling";
         } 
         
+         else if (name != name.toUpperCase()) 
+        {
+            return name + " IS YELLING";
+        }
+
+      
+        
       return "";
     }
 }
